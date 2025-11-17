@@ -1,0 +1,19 @@
+# Commands and steps used during the TryHackMe Offensive Security Intro lab
+
+# 1. Accessing the target machine
+ping 10.10.X.X
+
+# 2. Checking the main page
+curl http://10.10.X.X
+
+# 3. Inspecting files found
+curl http://10.10.X.X/index.html
+curl http://10.10.X.X/js/script.js
+
+# 4. Cookie manipulation (browser tools)
+# - Document.cookie
+# - Editing the bank_value cookie manually
+
+# 5. Triggering the winning function
+# Called directly from console:
+showWinningMsg()
